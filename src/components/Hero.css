@@ -1,0 +1,13 @@
+.hero {
+    height: 90vh;
+    background-image: url("https://t4.ftcdn.net/jpg/05/91/03/81/360_F_591038136_LjMh6z7sZLPFZg9p7418VG2ANr1jrZIA.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+}

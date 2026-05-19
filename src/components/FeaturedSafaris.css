@@ -1,0 +1,14 @@
+.safari-card {
+    border-radius: 14px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.safari-card:hover {
+    transform: translateY(-8px);
+}
+
+.safari-img {
+    height: 250px;
+    object-fit: cover;
+}
