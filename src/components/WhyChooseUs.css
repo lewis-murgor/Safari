@@ -1,0 +1,21 @@
+.why-card {
+    border-radius: 18px;
+    transition: all 0.3s ease;
+}
+.why-card:hover .icon-box {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.icon-box {
+  width: 80px;
+  height: 80px;
+  background: #e8d3bd;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #7a3d2b;
+  font-size: 2rem;
+}
