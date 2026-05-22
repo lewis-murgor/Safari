@@ -6,6 +6,7 @@ import About from './pages/About.jsx'
 import Destinations from './pages/Destinations.jsx'
 import Contact from './pages/Contact.jsx'
 import Book from './pages/Book.jsx'
+import Footer from './components/Footer.jsx'
 //import reactLogo from './assets/react.svg'
 //import viteLogo from './assets/vite.svg'
 //import heroImg from './assets/hero.png'
@@ -24,6 +25,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/book" element={<Book />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }
