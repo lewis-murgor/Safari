@@ -1,0 +1,28 @@
+.contact-hero {
+    height: 70vh;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.55),
+        rgba(0,0,0,0.55)),
+        url('https://visit-eastafrica.com/wp-content/uploads/2025/01/Elephants-in-Tarangire-National-Park-.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-card {
+    background: #fff;
+    padding: 40px;
+    border-radius: 24px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+}
+
+.contact-card input,
+.contact-card textarea {
+    border-radius: 14px;
+    padding: 16px;
+    border: 1px solid #ddd;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    margin-bottom: 18px;
+}
