@@ -1,4 +1,5 @@
 import "./Hero.css"
+import { Link } from "react-router-dom";
 
 function Hero() {
     return (
@@ -7,7 +8,9 @@ function Hero() {
             <div className="container text-center position-relative">
                 <h1 className="display-3 fw-bold">Experience the Beauty of Africa</h1>
                 <p className="lead mt-3">Unforgettable experiences across Africa</p>
-                <button className="btn btn-warning mt-3">Explore Destinations</button>
+                <Link to="/destinations" className="btn btn-warning mt-3">
+                    Explore Destinations
+                </Link>
             </div>
         </section>
     );
