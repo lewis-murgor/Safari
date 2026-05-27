@@ -7,8 +7,8 @@ function CTA() {
             <div className="container position-relative">
                 <h2 className="display-4">Ready for Your African Adventure?</h2>
                 <p className="lead mb-4">Book your unforgettable safari experience with us today!</p>
-                <Link to="/plan" className="btn btn-warning mt-3">
-                    Book Now
+                <Link to="/destinations" className="btn btn-warning mt-3">
+                    Explore Destinations
                 </Link>
             </div>
         </section>
