@@ -12,8 +12,8 @@ function Navbar() {
             >
                 <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse" id="navbarNav">
-                <ul className="navbar-nav mx-auto">
+            <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul className="navbar-nav">
                     <li className="nav-item">
                         <Link className="nav-link" to="/">Home</Link>
                     </li>
@@ -27,12 +27,6 @@ function Navbar() {
                         <Link className="nav-link" to="/contact">Contact us</Link>
                     </li>
                 </ul>
-
-                <div className="d-flex">
-                    <Link className="btn btn-warning fw-semibold" to="/book">
-                        Book Now
-                    </Link>
-                </div>
             </div>
         </nav>
     );
