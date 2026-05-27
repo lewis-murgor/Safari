@@ -67,7 +67,7 @@ function Destinations() {
                                     <img src={tour.image} className="tour-image" alt={tour.title} />
                                     <div className="p-4">
                                         <p className="tour-location">
-                                            📍 {tour.location}
+                                            {tour.location}
                                         </p>
                                         <h5 className="fw-bold mb-3">{tour.title}</h5>
                                         <p className="text-muted">{tour.description.slice(0, 100)}...</p>
